@@ -8,7 +8,7 @@ Created on Fri Oct 26 11:49:17 2018
 import hashlib as hasher
 import datetime as date
 
-#Define Snakecoin black 
+#Define Snakecoin block 
 class Block:
     def __init__(self, index, timestamp, data, previous_hash):
         self.index=index
